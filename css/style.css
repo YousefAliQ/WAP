@@ -1,0 +1,11 @@
+.cPadding{
+    margin: 30px;
+    background-color: skyblue;
+}
+.text-center {
+    padding: 20px;
+}
+.row{
+    width: 100%;
+    margin-left: 0%;
+}
