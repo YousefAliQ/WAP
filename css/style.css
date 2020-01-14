@@ -1,6 +1,7 @@
 .cPadding{
     margin: 30px;
     background-color: skyblue;
+    border-radius: 1%;
 }
 .text-center {
     padding: 20px;
@@ -8,4 +9,5 @@
 .row{
     width: 100%;
     margin-left: 0%;
+
 }
