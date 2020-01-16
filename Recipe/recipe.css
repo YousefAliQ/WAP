@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    background-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg);
+    background-image: url(../res/imgs/silverware.jpg);
     background-attachment: fixed;
     color: #404040;
     font-size: 11pt;
