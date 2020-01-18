@@ -1,0 +1,14 @@
+.success{
+    color: green;
+    font-size: large;
+}
+.failed{
+    color: red;
+    font-size: large;
+}
+.card-title{
+    font-size: larger;
+}
+.ml-9 {
+    margin-left: 17%;
+}
