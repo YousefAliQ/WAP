@@ -184,7 +184,7 @@ c) return the product of all elements;
 
 and testing the console.assert.
  */
-console.log("Modify the jsfiddle on the map/filter/reduce slide as follows:");
+console.log("Modified the jsfiddle on the map/filter/reduce slide as follows:");
 console.log("==============================================================");
 console.log("a) multiply each element by 10 :");
 
