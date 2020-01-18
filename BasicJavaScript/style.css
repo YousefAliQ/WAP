@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .success{
     color: green;
     font-size: large;
