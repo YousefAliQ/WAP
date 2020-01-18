@@ -217,6 +217,7 @@ const d3 = a.findIndex(function (elem) {
 /*
  Note : The following two assertions will failed. Its for testing purposes.
  */
+console.log("The following two assertions will failed. Its for testing purposes.");
 console.assert(d2 === 0, {"find elem > 1": 1, errorMsg: "failed! should equal 3"});
 console.assert(d3 === 0, {"findIndex elem > 1": 2, errorMsg: "failed! should equal 1"});
 
