@@ -26,3 +26,13 @@ textarea {
     font-family: monospace;
     font-size: 12pt;
 }
+.bling-checked{
+    font-weight : bold;
+    color : green;
+    text-decoration : underline;
+}
+.bling-unchecked{
+    font-weight  : initial;
+    color : white;
+    text-decoration  : none;
+}

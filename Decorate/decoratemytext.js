@@ -1,6 +1,5 @@
 window.onload = function() {
     "use strict";
-
     const myTextArea = document.getElementById("myTextArea");
     const myTextAreaStyle = myTextArea.style;
 
@@ -74,13 +73,11 @@ window.onload = function() {
     document.getElementById("BlingChk").onchange = function() {
         const body = document.body;
         if(this.checked == true) {
-            myTextAreaStyle.fontWeight = "bold";
-            myTextAreaStyle.color = "green";
-            myTextAreaStyle.textDecoration = "underline";
-
+            myTextArea.className = "bling-checked";
             body.style.background = "url('hundred-dollar-bill.jpg')";
         } else {
-            body.style.background = myTextAreaStyle.textDecoration = myTextAreaStyle.fontWeight = myTextAreaStyle.color = "";
+            myTextArea.className = "bling-unchecked";
+            body.style.background = "";
         }
     }
 }
