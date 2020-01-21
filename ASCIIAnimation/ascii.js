@@ -1,3 +1,5 @@
+/* jshint strict: true */
+
 /* assign event handlers */
 document.getElementById('fontOps').onchange = fontsize;
 document.getElementById('animation').onchange = animation;

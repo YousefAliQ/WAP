@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Hi professor,
+
+
+    -->
+    <link href="../res/imgs/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- add mocha css, to show results -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+
+    <title>JS Basics</title>
+</head>
+<h1 class="card-header">Basic JavaScript examples</h1>
+<br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">1. The max value of two numbers. </label>
+            <br>
+            <div class="form-group">
+                <label>First number : </label>
+                <input class="form-control" id="max2Number1" placeholder="i.e. 1"  required type="number">
+            </div>
+            <div class="form-group">
+                <label>Second number : </label>
+                <input class="form-control" id="max2Number2" placeholder="i.e. 2" required type="number">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="maxOfTwoNumbers" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="max2Result" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">2. The max value of three numbers. </label>
+            <br>
+            <div class="form-group">
+                <label>First number : </label>
+                <input class="form-control" id="max3Number1" placeholder="i.e. 1"  required type="number">
+
+            </div>
+            <div class="form-group">
+                <label>Second number : </label>
+                <input class="form-control" id="max3Number2" placeholder="i.e. 2" required type="number">
+            </div>
+
+            <div class="form-group">
+                <label>Third number : </label>
+                <input class="form-control" id="max3Number3" placeholder="i.e. 3" required type="number">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="maxOfThreeNumbers" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="max3Result" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">3. Check for vowel Chars. </label>
+            <br>
+            <div class="form-group">
+                <label>Enter a Char : </label>
+                <input class="form-control" id="checkForVowel" maxlength="1" placeholder="i.e. A"  required type="text">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="isVowel" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="isVowelResult" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">4. Calculate the array summation. </label>
+            <br>
+            <div class="form-group">
+                <label>Enter an array separated by spaces : </label>
+                <input class="form-control" id="sumArrayInput" placeholder="1 2 3 4 5 6 7 "  required type="text">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="sumArray" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="sumArrayResult" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">5. Calculate the array multiplication. </label>
+            <br>
+            <div class="form-group">
+                <label>Enter an array separated by spaces : </label>
+                <input class="form-control" id="multiplyArrayInput" placeholder="1 2 3 4 5 6 7 "  required type="text">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="multiplyArray" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="multiplyArrayResult" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">6. Reverse a string. </label>
+            <br>
+            <div class="form-group">
+                <label>Enter an array separated by spaces : </label>
+                <input class="form-control" id="reverseInput" placeholder="Hello World!"  required type="text">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="reverse" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="reverseResult" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">7. Find longest word. </label>
+            <br>
+            <div class="form-group">
+                <label>Enter an array separated by spaces : </label>
+                <input class="form-control" id="findLongestWordInput" placeholder="I am an array of strings"  required type="text">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="findLongestWord" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="findLongestWordResult" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form>
+            <label class="card-title">8. Filter words longer than i. </label>
+            <br>
+            <div class="form-group">
+                <label>Enter an array separated by spaces : </label>
+                <input class="form-control" id="filterLongWordsInput" placeholder="I am an array of strings"  required type="text">
+            </div>
+            <div class="form-group">
+                <label>Words longer than i, Enter i : </label>
+                <input class="form-control" id="ifilterLongWordsInput" placeholder="i.e. 3"  required type="text">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <button class="btn btn-primary btn-block" id="filterLongWords" type = "button">Result</button>
+                </div>
+            </div>
+            <br>
+            <label class="align-middle" id ="filterLongWordsResult" ></label>
+
+        </form>
+
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<hr>
+
+<label class="card-title ml-9">9. The map/filter/reduce. [Open the console] </label>
+<hr>
+<label class="card-title ml-9">Note : notice the console.assert usage form the console. </label>
+
+
+<!-- Adding JS files at the end of HTML page to load faster according to UI/UX  -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="script.js" type="text/javascript"></script>
+
+
+
+<!--<script src="calculator.js">    </script>-->
+
+<!-- the script with tests (describe, it...) -->
+<!-- <script src="test.js"></script>
+<script src="calculatorTest.js"></script> -->
+
+<!-- the element with id="mocha" will contain test results -->
+
+<div id="mocha"></div>
+<!-- run tests! -->
+<script>
+    mocha.run();
+</script>
+
+<body>
+
+
+</body>
+</html>
