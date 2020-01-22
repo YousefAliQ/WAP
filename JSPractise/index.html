@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Hi professor,
+
+    This lab is challenging one. It takes 3 hours to solve it. I enabled JShint
+    and I used Mocha for testing some functions.
+
+    It's not clear to me how to mock up all methods. But I will do more
+    researching about this.
+
+    thanks.
+    Yousef Ali Q
+    21, Jan 2020
+    -->
+
+
+    <meta charset="UTF-8">
+    <link href="../res/imgs/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- add mocha css, to show results -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+
+
+    <title>JS Practise</title>
+</head>
+<body>
+
+<script src="script.js"></script>
+
+<div id="mocha"></div>
+<!-- run tests! -->
+<script>
+    mocha.run();
+</script>
+
+</body>
+</html>
