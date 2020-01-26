@@ -1,6 +1,16 @@
 /*jshint esversion: 6*/
 (function () {
 'use strict';
+
+    /** this is where function desc goes
+     * @param x where params goes
+     * @return {string} what you will get back
+     */
+
+    /**
+     *
+     * @type {{arr: [], number: number, recursiveNth: recursiveNth, reverseArray: (function(): T[]), arrayToList: (function(): {}), reverseArrayInPlace: (function(): T[]), nth: nth, prepend: (function(): {}), list: {}, element: {}, listToArray: (function(): [])}}
+     */
     let operations = {
         number:0,
         arr: [],
@@ -143,7 +153,8 @@
                 "                        }\n" +
                 "                    }\n" +
                 "                } list : ", function () {
-                assert.deepEqual(operations.listToArray(), ["A", "B", "C"]);
+                let deepEqual;
+                deepEqual = assert.deepEqual(operations.listToArray(), ["A", "B", "C"]);
             });
         });
     });
