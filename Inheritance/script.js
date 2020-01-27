@@ -5,6 +5,7 @@
          * This function accepts an array of strings that
          * specifies a list of banned words. The function returns the string after removing all the
          * banned words.
+         *
          * its easy. and I solve it in 10 minutes.
          *
          * @param word : a list of banned strings to be removed.
@@ -17,6 +18,8 @@
         /**
          * This function is a BubbleSort algorithm on the Array object. Bubble sort is a simple sorting algorithm
          * that works by repeatedly stepping through the list to be sorted.
+         *
+         * Its a bit challenging. and I solve it in 20 minutes.
          *
          * @param arr : array of numbers
          * @return {*} : sorted array of numbers using bubble sort algorithm
@@ -51,7 +54,14 @@
         }
 
 
-        var Person = function () {
+        /**
+         *  this exercise comes from: https://www.learn-js.org/en/Inheritance
+         *  for practising inheritance in JS.
+         *
+         *  its easy. and I solve it in 10 minutes.
+         * @constructor : Person constructor for initialize name and age.
+         */
+        const Person = function () {
         };
         Person.prototype.initialize = function (name, age) {
             this.name = name;
@@ -60,24 +70,38 @@
         Person.prototype.describe = function () {
             return this.name + ", " + this.age + " years old.";
         }
-        var Student = function () {
+        const Student = function () {
         };
         Student.prototype = new Person();
         Student.prototype.learn = function (subject) {
-            console.log(this.name + " just learned " + subject);
+            return this.name + " just learned " + subject;
         }
-        var me = new Student();
+        const me = new Student();
         me.initialize("John", 25);
         me.learn("Inheritance");
+
+        const Teacher = function () {
+        };
+        Teacher.prototype = new Person();
+        Teacher.prototype.teach = function(subject){
+            return this.name + " is now teaching " + subject;
+        }
+
+        const prof = new Teacher();
+        prof.initialize("Mark", 35);
+        prof.teach("Inheritance");
 
 
         let data = {
             statement: "",
             word: "",
-            arr: []
+            arr: [],
+            subject: "",
+            name1:"",
+            name2:""
         };
 
-        describe("filter", function () {
+        describe("Filter", function () {
 
             context("filter banned words: ", function () {
                 beforeEach(function () {
@@ -107,6 +131,25 @@
 
                 it("bubble sort algorithm. ", function () {
                     assert.deepEqual(bubbleSort(data.arr), [-2, 0, 1, 3, 4, 6]);
+                });
+
+            });
+
+        });
+
+        describe("Inheritance", function () {
+
+            context("Teacher and Student inherit Person: ", function () {
+                beforeEach(function () {
+                    data.name1 = "Prof. Mark";
+                    data.name2 = "Ahmed";
+                    data.subject = "Biography";
+                    data.prof = new Teacher();data.prof.initialize(data.name1, 35);
+                });
+
+                it("Instructor teaches a course. ", function () {
+                    assert.deepEqual(data.prof.teach(data.subject),"Prof. Mark is now teaching Biography");
+
                 });
 
             });
