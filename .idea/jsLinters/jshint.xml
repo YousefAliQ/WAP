@@ -4,13 +4,13 @@
     <option asi="false" />
     <option bitwise="true" />
     <option boss="false" />
-    <option browser="true" />
+    <option browser="false" />
     <option browserify="false" />
     <option camelcase="false" />
     <option couch="false" />
     <option curly="true" />
     <option debug="false" />
-    <option devel="true" />
+    <option devel="false" />
     <option dojo="false" />
     <option elision="false" />
     <option enforceall="false" />
