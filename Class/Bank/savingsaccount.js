@@ -48,7 +48,7 @@ class SavingsAccount extends Account{
 
 }
 
-describe("Bank Account Test", function () {
+describe("Saving Account Test", function () {
 
     context("Testing the methods on the account: ", function () {
         beforeEach(function () {

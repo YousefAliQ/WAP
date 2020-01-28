@@ -3,7 +3,6 @@
 (function () {
         'use strict';
 
-
         let data = {
             statement: "",
             word: "",
@@ -13,16 +12,16 @@
             name2:""
         };
 
-        describe("Bank Account Test", function () {
+        describe("General Test", function () {
             context("Testing the methods on the account: ", function () {
+
                 beforeEach(function () {
-                    data.date =  new Date();
-                    data.template = {template: 'h:m:s'};
+                    data.balance =  100;
+                    data.withdraw = 50;
                 });
 
-                it("Tickes after two seconds : ", function () {
-                    //let clock = new Clock(data.template).start().start();
-                });
+
+
 
             });
 
