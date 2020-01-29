@@ -45,6 +45,9 @@ $(document).ready(function(){
     let lostMessage = function(){
         if (!$boundary.hasClass("youlose")){
             $boundary.addClass("youlose");
+            if ($boundary.hasClass("started")){
+                $boundary.removeClass("started");
+            }
             updateStatus("Sorry, you lost. :[");
         }
     }
@@ -63,7 +66,9 @@ $(document).ready(function(){
      */
     $end.mouseenter(function () {
         if (!$boundary.hasClass("youlose")){
-            updateStatus("You win! :]");
+            if ($boundary.hasClass("started")){
+                updateStatus("You win! :]");
+            }
         }
     });
 
@@ -74,6 +79,9 @@ $(document).ready(function(){
     $start.click(function () {
         if ($boundary.hasClass("youlose")){
             $boundary.removeClass("youlose");
+            if (!$boundary.hasClass("started")){
+                $boundary.addClass("started");
+            }
             updateStatus("You are playing now.");
         }
     });
