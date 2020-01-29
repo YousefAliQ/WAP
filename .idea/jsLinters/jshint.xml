@@ -4,13 +4,13 @@
     <option asi="false" />
     <option bitwise="true" />
     <option boss="false" />
-    <option browser="false" />
+    <option browser="true" />
     <option browserify="false" />
     <option camelcase="false" />
     <option couch="false" />
     <option curly="true" />
     <option debug="false" />
-    <option devel="false" />
+    <option devel="true" />
     <option dojo="false" />
     <option elision="false" />
     <option enforceall="false" />
@@ -30,7 +30,7 @@
     <option immed="false" />
     <option iterator="false" />
     <option jasmine="false" />
-    <option jquery="false" />
+    <option jquery="true" />
     <option lastsemic="false" />
     <option latedef="false" />
     <option laxbreak="false" />
@@ -58,7 +58,7 @@
     <option phantom="false" />
     <option plusplus="false" />
     <option proto="false" />
-    <option prototypejs="false" />
+    <option prototypejs="true" />
     <option qunit="false" />
     <option quotmark="false" />
     <option rhino="false" />

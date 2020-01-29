@@ -1,0 +1,60 @@
+.circle{
+    border-radius: 50%;
+    border: red solid 3px;
+    padding: 1px;
+    text-align: center;
+}
+.black{
+    background-color: #1d1e1f;
+}
+div {
+    text-align: center;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.inlineBlock{
+    display: inline-block;
+}
+.controls{
+
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    background-color: lightblue;
+    padding: 20px;
+    opacity: 75%;
+    width: 100%;
+}
+
+.itemMenu { grid-area: menu;
+    float: left;}
+.itemMain { grid-area: main;
+    float: left;}
+
+.grid-container {
+
+    display: grid;
+    grid-template-areas:
+            'menu menu main main'
+            'menu menu main main';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+
+}
+button{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.absolute{
+    position: absolute;
+}

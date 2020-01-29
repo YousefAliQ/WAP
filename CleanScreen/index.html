@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Hi prof,
+
+     I solved this lab in about one hour, it had a lot of fun.
+     I re-created the circle after removing it and used the fadeIn & fadeOut jQuery methods.
+
+     Also, I generate a documentation for the code using Node.js by the following library
+     https://github.com/documentationjs/documentation
+
+     and I provided the documentation results at the end ov the this page.
+     https://yousefaliq.github.io/WAP/CleanScreen/docs/index.html
+
+     Many thanks,
+     yousef
+     -->
+
+
     <meta charset="UTF-8">
     <title>Clean Screen</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="../res/js/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
 </head>
 <body>
+
+<h1>Clean Screen</h1>
+<hr>
+
+<div id = "circles">
+    <span></span>
+</div>
+<hr>
+<div class="controls grid-container">
+    <div><label class="itemMenu">Width : </label> <br><input id="width" class="itemMain" type="number" value = "100"/></div><br>
+    <div><label class="itemMenu">Growth : </label> <br><input id="growth" class="itemMain" type="number" value = "10"/></div><br>
+    <div><label class="itemMenu">Rate : </label> <br><input id="rate" class="itemMain" type="number" value = "250"/></div><br>
+    <div><label class="itemMenu">Number circles : </label><br> <input id="circlesNumber" class="itemMain" type="number" value = "3"/></div><br>
+
+    <div>
+        <span><button id = "startBtn" class="">Start</button></span>
+    </div>
+    <a href="https://yousefaliq.github.io/WAP/CleanScreen/docs/index.html">Documentation</a>
+</div>
 
 </body>
 </html>
