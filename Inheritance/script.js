@@ -12,7 +12,7 @@
          * @return {string[]} : a string do not include the word passed in the parameter.
          */
         String.prototype.filter = function (word) {
-            return this.split(" ").filter(x => !word.toString().includes(x)).join(" ");
+            return this.split(" ").filter(x => !word.includes(x)).join(" ");
         };
 
         /**
