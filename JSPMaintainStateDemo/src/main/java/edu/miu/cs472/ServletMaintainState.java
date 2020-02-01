@@ -12,26 +12,26 @@ public class ServletMaintainState extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        PrintWriter out = response.getWriter();
-        out.print("<html><head><title>Test</title></head><body><p>See the Bundled Tomcat(5.5.17) window</p></body></html>");
-        System.out.format("requestState: %s\r\n", request.getAttribute("requestState"));
-        System.out.format("sessionState: %s\r\n", request.getSession().getAttribute("sessionState"));
-        System.out.format("applicationState: %s\r\n",
-                this.getServletContext().getAttribute("applicationState"));
+				PrintWriter out = response.getWriter();
+				out.print("<html><head><title>Test</title></head><body><p>See the Bundled Tomcat(5.5.17) window</p></body></html>");
+				System.out.format("requestState: %s\r\n", request.getAttribute("requestState"));
+				System.out.format("sessionState: %s\r\n", request.getSession().getAttribute("sessionState"));
+				System.out.format("applicationState: %s\r\n",
+					this.getServletContext().getAttribute("applicationState"));
 
-        Cookie[] cookies = request.getCookies();
-        int cnt = 0;
-        if (cookies != null)
-        {
-            for (Cookie cookie : cookies)
-            {
-                if (cookie.getName().equals("cookiePermanentState"))
-                    System.out.format("cookiePermanentState: %s\r\n", cookie.getValue());
-                else if (cookie.getName().equals("cookieTemporaryState"))
-                    System.out.format("cookieTemporaryState: %s\r\n", cookie.getValue());
-            }
-        }
-        System.out.format("hiddenState: %s\r\n", request.getParameter("hiddenState"));
+				Cookie[] cookies = request.getCookies();
+				int cnt = 0;
+				if (cookies != null)
+				{
+				    for (Cookie cookie : cookies)
+				    {
+					if (cookie.getName().equals("cookiePermanentState"))
+					    System.out.format("cookiePermanentState: %s\r\n", cookie.getValue());
+					else if (cookie.getName().equals("cookieTemporaryState"))
+					    System.out.format("cookieTemporaryState: %s\r\n", cookie.getValue());
+				    }
+				}
+				System.out.format("hiddenState: %s\r\n", request.getParameter("hiddenState"));
 
     }
 
