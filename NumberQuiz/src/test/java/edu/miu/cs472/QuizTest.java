@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class QuizTest {
 
-    Quiz quizUnderTest = new Quiz();
+    Quiz quizUnderTest = new Quiz(0,0);
 
     @Test
     public void getNumCorrect() {

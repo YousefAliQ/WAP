@@ -2,8 +2,10 @@ Hi Prof,
 
 I implemented and tested with 100% coverage. The desktop version and business module
 designed to be used later by servlets or JSPs.
-
 It took around an hour to solve it.
+
+I implemented the Servlet part in about an hour. I tried to design the best practise of MVC
+pattern. nothing challenging except for new things like how to handle sessions in Servlet.
 
 Thanks,
 Yousef Ali

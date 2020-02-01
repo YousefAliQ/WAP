@@ -12,12 +12,15 @@ public class Quiz {
 
     private int score = 0;
     private int questionNumber =0;
-    private String[][] questions= {{"Guess the next number in the sequence!\n" +
-            "\n" +
-            "[1, 1, 2, 3, 5, ? ]","9"},{"Guess the next number in the sequence!\n" +
-            "\n" +
-            "[1, 1, 2, 3, 5, ? ]","8"}};
+    private String[][] questions= {
+            { "[1, 1, 2, 3, 5, ? ]","9"},
+            {"[1, 1, 2, 3, 5, ? ]","8"}
+    };
 
+    public Quiz(int questionNumber, int score){
+        this.questionNumber = questionNumber;
+        this.score = score;
+    }
     /**
      * returns the number of the correct answered questions
      * @return {int} Score
@@ -71,5 +74,21 @@ public class Quiz {
      */
     public int getCurrentQuestionIndex() {
         return questionNumber;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public int getQuestionNumber() {
+        return questionNumber;
+    }
+
+    public void setQuestionNumber(int questionNumber) {
+        this.questionNumber = questionNumber;
     }
 }

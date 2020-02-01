@@ -18,7 +18,7 @@ public class TestRunner {
     public static void main(String[] args)
     {
         try {
-            Quiz quiz = new Quiz();
+            Quiz quiz = new Quiz(0,0 );
 
             Scanner sc = new Scanner(System.in);
             boolean questionsLeft = true;
