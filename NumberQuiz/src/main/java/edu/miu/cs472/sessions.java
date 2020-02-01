@@ -5,6 +5,13 @@ class Session {
     private int score;
     private int questionNumber;
 
+    /**
+     * created to manage sessions for users to keep tracking of their score and next question
+     *
+     * @param sessionID
+     * @param score
+     * @param questionNumber
+     */
     public Session(String sessionID, int score, int questionNumber){
         this.questionNumber = questionNumber;
         this.sessionID = sessionID;

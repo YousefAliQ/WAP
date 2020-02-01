@@ -18,6 +18,7 @@ public class ServletQuiz extends HttpServlet {
         PrintWriter out = response.getWriter();
         HttpSession ssn = request.getSession();
         if(ssn != null){
+
             String ssnId = ssn.getId();
 
             boolean isNew = true;
@@ -64,25 +65,6 @@ public class ServletQuiz extends HttpServlet {
             System.out.print("Cannot find the session ID");
         }
 
-
-        System.out.format("requestState: %s\r\n", request.getAttribute("requestState"));
-        System.out.format("sessionState: %s\r\n", request.getSession().getAttribute("sessionState"));
-        System.out.format("applicationState: %s\r\n",
-                this.getServletContext().getAttribute("applicationState"));
-
-        Cookie[] cookies = request.getCookies();
-        int cnt = 0;
-        if (cookies != null)
-        {
-            for (Cookie cookie : cookies)
-            {
-                if (cookie.getName().equals("cookiePermanentState"))
-                    System.out.format("cookiePermanentState: %s\r\n", cookie.getValue());
-                else if (cookie.getName().equals("cookieTemporaryState"))
-                    System.out.format("cookieTemporaryState: %s\r\n", cookie.getValue());
-            }
-        }
-        System.out.format("hiddenState: %s\r\n", request.getParameter("hiddenState"));
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -107,11 +89,11 @@ public class ServletQuiz extends HttpServlet {
                 int score = temp.getScore();
 
                 Quiz quiz = new Quiz(question, score);
-                out = viewer.genQuizPage(quiz, out, quiz.getCurrentQuestion(), false,  "1");
+                out = viewer.genQuizPage(quiz, out, quiz.getCurrentQuestion(), false,  "");
             }else{
-               sessions.add(new Session(ssnId,0,0));
+                sessions.add(new Session(ssnId,0,0));
                 Quiz quiz = new Quiz(0, 0);
-                out = viewer.genQuizPage(quiz, out, quiz.getCurrentQuestion(), false,  "1");
+                out = viewer.genQuizPage(quiz, out, quiz.getCurrentQuestion(), false,  "");
             }
         }
         else

@@ -8,6 +8,16 @@ public class QuizViewer {
 
     }
 
+    /**
+     * Generate new question page and provide current score
+     *
+     * @param sessQuiz
+     * @param out
+     * @param currQuest
+     * @param error
+     * @param answer
+     * @return {PrintWriter}
+     */
     protected PrintWriter genQuizPage(Quiz sessQuiz, PrintWriter out, String currQuest, boolean error, String answer) {
 
         out.print("<html>");
@@ -36,13 +46,18 @@ public class QuizViewer {
         return out;
     }
 
+    /**
+     * generate quiz over page
+     * @param out
+     * @return
+     */
     protected PrintWriter genQuizOverPage(PrintWriter out) {
         out.print("<html> ");
         out.print("<head >");
         out.print("<title>NumberQuiz is over</title> ");
         out.print("</head> ");
         out.print("<body> ");
-        out.print("<p style='color:red'>The number quiz is over!</p>	</body> ");
+        out.print("<p style='color:green'>Congrats! The number quiz is over!</p>	</body> ");
         out.print("</html> ");
         return out;
     }
