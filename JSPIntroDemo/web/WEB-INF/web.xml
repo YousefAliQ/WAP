@@ -7,7 +7,16 @@
         <servlet-name>JSPIntroServlet</servlet-name>
         <servlet-class>edu.miu.cs472.JSPIntroServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ChooseServlet</servlet-name>
+        <servlet-class>edu.miu.cs472.ChooseServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
+        <servlet-name>ChooseServlet</servlet-name>
+        <url-pattern>/ChooseServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        
         <servlet-name>JSPIntroServlet</servlet-name>
         <url-pattern>/JSPIntro</url-pattern>
     </servlet-mapping>

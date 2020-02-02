@@ -12,5 +12,6 @@
 </head>
 <body>
 <a href='JSPIntro'>JSPIntroDemo</a>
+<a href="ChooseServlet">Choose</a>
 </body>
 </html>
