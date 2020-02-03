@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guestListAjax:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="guestlistAjax-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="guestListAjax:war exploded" />
+    </root>
+  </artifact>
+</component>
