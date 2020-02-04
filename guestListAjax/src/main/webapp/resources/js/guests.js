@@ -16,7 +16,15 @@ function updateGuests() {
 }
 
 function displayGuests(data) {
-    var guestList = "You need to modify this method to display the updated guest list.  Remember to build the entire list before adding it to the DOM.";
-    $("#guestList").html(guestList);
+
+    const $questList = $("<ul>")[0];
+
+    for(let i=0; i <data.length;i++){
+        const $li = $("<li>")[0];
+        $li.innerText = data[i].first + " " + data[i].last;
+        $questList.append($li);
+    }
+    // var guestList = "You need to modify this method to display the updated guest list.  Remember to build the entire list before adding it to the DOM.";
+    $("#guestList").html($questList);
     
 }

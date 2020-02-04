@@ -1,1 +1,0 @@
-{"urls":[{"kitty":"kitty3.jpeg"},{"kitty":"kitty4.jpeg"},{"kitty":"kitty1.jpeg"},{"kitty":"kitty2.jpeg"},{"kitty":"kitty5.jpeg"},{"puppy":"puppy1.jpeg"},{"puppy":"puppy2.jpeg"},{"puppy":"puppy3.jpeg"},{"puppy":"puppy4.jpeg"}]}

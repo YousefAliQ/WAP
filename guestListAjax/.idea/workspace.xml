@@ -2,40 +2,41 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="guestListAjax:war exploded" />
+      <artifact name="guestListAjax:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="303de44e-40ad-4e98-a2a3-07bdfb2a3414" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSPNumberQuiz.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/guestListAjax_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/guestListAjax_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GuestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/guests.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/guests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/Guest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/GuestServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/classes/app/Guest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/classes/controller/GuestServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/guests.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/.idea/AjaxPets.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/ajaxpets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/kitty1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/kitty2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/kitty3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/kitty4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/kitty5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/puppy1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/puppy2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/puppy3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgs/puppy4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/imgsURLs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AjaxPets/src/js/ajaxpets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/guestListAjax_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/guestListAjax_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/guestListAjax_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/guestListAjax_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guestListAjax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guestListAjax.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/guests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/guests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/GuestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/GuestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/classes/controller/GuestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/classes/controller/GuestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,13 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1XHIVvi6Wk2NQGhUQqVk8oO5yso" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,7 +71,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AjaxPets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -108,17 +116,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tom8523" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8.5.501" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.501" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/guestListAjax_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="guestListAjax:war exploded">
+        <artifact name="guestListAjax:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/guestListAjax_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_guestlistAjax_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_guestlistAjax" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -126,7 +135,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="61498" />
+        <option name="DEBUG_PORT" value="37233" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -176,7 +185,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="guestListAjax:war exploded" />
+          <artifact name="guestListAjax:war" />
         </option>
       </method>
     </configuration>
@@ -190,6 +199,28 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,6 +233,7 @@
       <updated>1510978165007</updated>
       <workItem from="1510978174679" duration="2011000" />
       <workItem from="1580696623182" duration="280000" />
+      <workItem from="1580841806610" duration="2575000" />
     </task>
     <servers />
   </component>
@@ -209,10 +241,82 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580696901833">
+    <state x="588" y="214" width="800" height="677" key="#Inspections" timestamp="1580845405533">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1580696901833" />
+    <state x="588" y="214" width="800" height="677" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1580845405533" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580845663756">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580845663756" />
+    <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580845353700">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580845353700" />
+    <state x="646" y="160" width="685" height="784" key="#tom8523" timestamp="1580845581516">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="646" y="160" width="685" height="784" key="#tom8523/67.27.1853.1053@67.27.1853.1053" timestamp="1580845581516" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580847297861">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1580847297861" />
+    <state width="1244" height="278" key="GridCell.Tab.0.bottom" timestamp="1580847301304">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301304" />
+    <state width="1244" height="278" key="GridCell.Tab.0.center" timestamp="1580847301303">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301303" />
+    <state width="1244" height="278" key="GridCell.Tab.0.left" timestamp="1580847301303">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301303" />
+    <state width="1244" height="278" key="GridCell.Tab.0.right" timestamp="1580847301304">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301304" />
+    <state width="1244" height="278" key="GridCell.Tab.1.bottom" timestamp="1580847301305">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301305" />
+    <state width="1244" height="278" key="GridCell.Tab.1.center" timestamp="1580847301304">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301304" />
+    <state width="1244" height="278" key="GridCell.Tab.1.left" timestamp="1580847301304">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301304" />
+    <state width="1244" height="278" key="GridCell.Tab.1.right" timestamp="1580847301305">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301305" />
+    <state width="1244" height="278" key="GridCell.Tab.2.bottom" timestamp="1580847301306">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301306" />
+    <state width="1244" height="278" key="GridCell.Tab.2.center" timestamp="1580847301305">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301305" />
+    <state width="1244" height="278" key="GridCell.Tab.2.left" timestamp="1580847301305">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301305" />
+    <state width="1244" height="278" key="GridCell.Tab.2.right" timestamp="1580847301305">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580847301305" />
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1580845381547">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580845381547" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1580845323212">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580845323212" />
   </component>
   <component name="masterDetails">
     <states>
