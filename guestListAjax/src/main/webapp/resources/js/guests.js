@@ -1,10 +1,12 @@
+
 $(function() {
+
     $("#send").click(updateGuests);
 });
 
 function updateGuests() {
-    var first = $("#first").val();
-    var last = $("#last").val();
+    const first = $("#first").val();
+    const last = $("#last").val();
     
     $.ajax("guest.ajax", {
 		"type": "post",

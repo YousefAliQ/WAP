@@ -5,7 +5,7 @@ $(function () {
 
     function sendRequest(evt) {
 
-        $.ajax("https://jsonplaceholder.typicode.com/posts",
+        $.ajax("http://jsonplaceholder.typicode.com/posts",
             {
                 type: "get",
                 dataType: "json",
@@ -23,7 +23,7 @@ $(function () {
             $("#posts").append($ul);
 
         }).fail(function (err) {
-            alert("failed : " + err.errorMsg);
+            alert("failed : " + err.statusText);
         });
 
     }
