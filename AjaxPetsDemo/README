@@ -1,0 +1,8 @@
+Hi prof,
+
+I solved this lab in about hour and half. I understood that there is no CORS
+issue on images. I used Gson from google to convert the images urls to JSON
+and I used JSON.parse() method to extract the urls.
+
+It was interesting lab. I like it!
+Yousef

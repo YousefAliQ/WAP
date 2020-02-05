@@ -5,7 +5,7 @@ $(function () {
 
     function sendRequest(evt) {
 
-        $.ajax("http://jsonplaceholder.typicode.com/posts",
+        $.ajax("https://jsonplaceholder.typicode.com/posts",
             {
                 type: "get",
                 dataType: "json",
