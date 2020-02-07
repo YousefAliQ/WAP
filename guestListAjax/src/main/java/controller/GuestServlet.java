@@ -45,13 +45,17 @@ public class GuestServlet extends HttpServlet {
         String firstInput = request.getParameter("first");
         String lastInput = request.getParameter("last");
         guestList.add(new Guest(firstInput, lastInput));
-        
+
+       /* request.setAttribute("guestList", guestList );
+        RequestDispatcher view = request.getRequestDispatcher("guests.jsp");
+        view.forward(request, response);*/
+
         String JSONguests;
         JSONguests = new Gson().toJson(guestList);
 
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
-        out.write(JSONguests);        
+        out.write(JSONguests);
     }
 
 
